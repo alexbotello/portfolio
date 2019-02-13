@@ -1,9 +1,10 @@
 import React from "react";
+import "./index.css";
 
 function Image() {
   return (
-    <div>
-      <img src="/images/profile.jpg" alt="profile" />
+    <div className="Image">
+      <img src="/images/me.png" alt="profile" />
     </div>
   );
 }

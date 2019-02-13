@@ -3,7 +3,7 @@ import "./index.css";
 
 function TextBody() {
   return (
-    <div>
+    <div className="Text">
       <p>
         Hello! My name is Alexander Botello, and I'm an Austin based full-stack
         web developer. I build web applications primarily with React, Node.js,
