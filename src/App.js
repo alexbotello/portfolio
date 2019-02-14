@@ -1,16 +1,13 @@
 import React from "react";
 
-import Image from "./components/Image";
-import TextBody from "./components/TextBody";
-import SocialNav from "./components/SocialNav";
-import "./App.css";
+import MainPage from "./components/Main";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    <div className="Container">
-      <Image />
-      <TextBody />
-      <SocialNav />
+    <div>
+      <MainPage />
+      <Projects />
     </div>
   );
 }

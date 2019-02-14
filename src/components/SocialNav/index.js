@@ -23,11 +23,13 @@ function SocialNav() {
   const [social] = useState(socialWebsites);
 
   return (
-    <ul className="Social">
-      {Object.keys(social).map(key => {
-        return <SocialItem {...social[key]} key={key} />;
-      })}
-    </ul>
+    <div className="Social">
+      <ul>
+        {Object.keys(social).map(key => {
+          return <SocialItem {...social[key]} key={key} />;
+        })}
+      </ul>
+    </div>
   );
 }
 

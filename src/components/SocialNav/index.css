@@ -1,13 +1,20 @@
 .Social {
   grid-area: social;
+}
+
+.Social ul {
   list-style-type: none;
-  margin: 0;
+  margin-top: 15px;
   display: flex;
   place-content: center;
 }
 
+.Social hr {
+  margin: 50px;
+}
+
 .Item {
-  margin: 0.4rem;
+  margin: 0.7rem;
 }
 
 .Item img:hover {
