@@ -1,15 +1,16 @@
 import React from "react";
 
 import Image from "./components/Image";
-// import Title from "./components/Title";
 import TextBody from "./components/TextBody";
+import SocialNav from "./components/SocialNav";
 import "./App.css";
 
 function App() {
   return (
     <div className="Container">
-      <TextBody />
       <Image />
+      <TextBody />
+      <SocialNav />
     </div>
   );
 }

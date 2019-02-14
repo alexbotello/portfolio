@@ -4,7 +4,8 @@
   grid-template-areas:
     ".   .   ."
     ". image ."
-    ". text  .";
+    ". text  ."
+    ". social .";
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   text-align: center;
 }

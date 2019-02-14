@@ -2,6 +2,6 @@
   grid-area: image;
 }
 
-img {
+.Image img {
   border-radius: 50%;
 }
