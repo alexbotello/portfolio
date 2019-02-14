@@ -1,0 +1,16 @@
+.Text {
+  grid-area: text;
+}
+
+.Text p {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+
+.Text span {
+  color: #f7d297;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
