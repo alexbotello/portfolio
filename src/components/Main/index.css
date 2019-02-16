@@ -1,6 +1,6 @@
 .Container {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: minmax(150px, 1fr) 2fr minmax(150px, 1fr);
   grid-template-areas:
     "image . social"
     ". text ."
@@ -13,4 +13,37 @@
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+}
+
+@media (max-width: 1200px) {
+  .Container {
+    grid-template-areas:
+      "image . social"
+      "text text text"
+      ".     .     . ";
+  }
+}
+
+@media (max-width: 933px) {
+  .Container {
+    grid-template-areas:
+      ". social ."
+      "text text text"
+      " . . .";
+  }
+  /* Turn off profile image */
+  .Container .Image {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .Container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "social"
+      "text"
+      "  . ";
+  }
 }
