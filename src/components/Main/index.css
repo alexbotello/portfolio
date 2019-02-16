@@ -1,0 +1,16 @@
+.Container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas:
+    "image . social"
+    ". text ."
+    ". . .";
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: center;
+  background: url("/images/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}

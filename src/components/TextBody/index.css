@@ -1,5 +1,6 @@
 .Text {
   grid-area: text;
+  height: 100%;
 }
 
 .Text p {
@@ -13,4 +14,16 @@
   color: #f7d297;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+}
+
+.Text button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  width: 170px;
+  height: 50px;
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 70px;
 }
