@@ -27,3 +27,15 @@
   cursor: pointer;
   margin-top: 70px;
 }
+
+@media (max-width: 550px) {
+  .Text p {
+    font-size: 26px;
+  }
+
+  .Text button {
+    width: 123px;
+    height: 38px;
+    font-size: 14px;
+  }
+}
