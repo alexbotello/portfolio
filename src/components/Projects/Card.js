@@ -9,7 +9,6 @@ function Card(props) {
       ref={hoverRef}
       style={{ backgroundImage: `url(${props.image})` }}
     >
-      {/* {isHovered ? console.log("HOVERED") : console.log("NOT")} */}
       {isHovered ? (
         <div className="CardDetails">
           <h2 className="title">{props.title}</h2>
