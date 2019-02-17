@@ -9,7 +9,7 @@ function TextBody() {
         <br />
         I'm a full-stack developer living in Austin.
       </p>
-      <button onClick={() => scrollToProjects()}> See my work -></button>
+      <button onClick={() => scrollToProjects()}> See my work</button>
     </div>
   );
 }

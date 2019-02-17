@@ -26,6 +26,11 @@
   font-size: 20px;
   cursor: pointer;
   margin-top: 70px;
+  transition: all 1s ease;
+}
+
+.Text button:hover {
+  transform: scale(1.1) perspective(2px);
 }
 
 @media (max-width: 550px) {
