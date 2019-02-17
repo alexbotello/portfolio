@@ -1,6 +1,6 @@
 .Projects {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: minmax(150px, 1fr) 3fr minmax(150px, 1fr);
   grid-template-areas:
     ".  title ."
     ".  cards ."
@@ -22,23 +22,25 @@
 
 .Title hr {
   border: 3px solid #46484a;
-  width: 10%;
+  width: 15%;
   margin-top: -30px;
 }
 
 .Cards {
   grid-area: cards;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, minmax(250px, 350px));
   grid-template-rows: 1fr 1fr;
+  grid-gap: 5px 5px;
 }
 
 .Card {
-  border: 1px solid black;
+  height: 100%;
   position: relative;
 }
 
 .CardDetails {
+  border: 1px solid black;
   height: 100%;
   background-color: #f5f5f5;
 }
@@ -61,4 +63,44 @@
 .Card button:hover {
   background-color: #1fbfc6;
   color: white;
+}
+
+@media (max-width: 1555px) {
+  .Projects {
+    grid-template-areas:
+      ". title ."
+      "cards cards cards"
+      "cards cards cards"
+      ".  .  .";
+  }
+  .Cards {
+    align-content: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Projects {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "cards"
+      "cards"
+      ".";
+  }
+  .Cards {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 990px) {
+  .Cards {
+    grid-template-columns: repeat(2, minmax(250px, 350px));
+  }
+}
+
+@media (max-width: 700px) {
+  .Cards {
+    grid-template-columns: minmax(250px, 350px);
+  }
 }

@@ -2,13 +2,14 @@ import React from "react";
 import { useHover } from "../../hooks";
 
 function Card(props) {
+  const backgroundSettings = {
+    backgroundImage: `url(${props.image})`,
+    backgroundSize: "cover"
+  };
   const [hoverRef, isHovered] = useHover();
+
   return (
-    <div
-      className="Card"
-      ref={hoverRef}
-      style={{ backgroundImage: `url(${props.image})` }}
-    >
+    <div className="Card" ref={hoverRef} style={backgroundSettings}>
       {isHovered ? (
         <div className="CardDetails">
           <h2 className="title">{props.title}</h2>
