@@ -76,11 +76,6 @@
   color: white;
 }
 
-/* .slide-top:hover {
-  transition: .5s ease-in-out;
-  transform: scale(1.1) perspective(1px);
-} */
-
 @media (max-width: 1555px) {
   .Projects {
     grid-template-areas:
