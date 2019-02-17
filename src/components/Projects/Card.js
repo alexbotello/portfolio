@@ -12,9 +12,11 @@ function Card(props) {
     <div className="Card" ref={hoverRef} style={backgroundSettings}>
       {isHovered ? (
         <div className="CardDetails">
-          <h2 className="title">{props.title}</h2>
-          <p className="subtitle">{props.tech}</p>
-          <button className="Infobutton">More Info</button>
+          <div className="slide-top">
+            <h2 className="title">{props.title}</h2>
+            <p className="subtitle">{props.tech}</p>
+            <button className="Infobutton">More Info</button>
+          </div>
         </div>
       ) : null}
     </div>

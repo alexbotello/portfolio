@@ -44,6 +44,17 @@
   height: 100%;
   background-color: #f5f5f5;
 }
+
+.CardDetails:hover .slide-top {
+  height: 100%;
+}
+
+.slide-top {
+  overflow: hidden;
+  height: 0;
+  transition: 1s ease;
+}
+
 .Card p {
   color: #1fbfc6;
   margin-top: -15px;
@@ -64,6 +75,11 @@
   background-color: #1fbfc6;
   color: white;
 }
+
+/* .slide-top:hover {
+  transition: .5s ease-in-out;
+  transform: scale(1.1) perspective(1px);
+} */
 
 @media (max-width: 1555px) {
   .Projects {
