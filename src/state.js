@@ -20,11 +20,17 @@ export const projectInfo = {
     url: "https://bkwds.co",
     title: "bkwds.",
     tech: "Node + React.js",
-    image: "/images/bkwds.jpg"
+    image: "/images/bkwds.jpg",
+    subtitle: "Hiking Companion App",
+    desc:
+      "Bkwds is a companion app for hikers, bikers, and climbers. Plan your routes, share them, and allow other to track your progress. Wander into the unknown with a peace of mind. "
   },
   minimizer: {
     url: "https://github.com/alexbotello/minimizer",
-    title: "minimizer",
-    tech: "Python"
+    title: "Minimizer",
+    tech: "Python",
+    subtitle: "CLI Tool",
+    desc:
+      "A command line tool that shrinks images to a specified size. Shrink an individual image or every image in a directory."
   }
 };
