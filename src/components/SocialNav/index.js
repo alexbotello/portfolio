@@ -8,7 +8,7 @@ function SocialNav() {
 
   return (
     <div className="Social">
-      <ul>
+      <ul className="slideLeft">
         {Object.keys(social).map(key => {
           return <SocialItem {...social[key]} key={key} />;
         })}
