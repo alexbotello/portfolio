@@ -15,20 +15,27 @@
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  width: 700px;
+  width: 900px;
   background-color: #fefefe;
   margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  justify-content: flex-start;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
 }
 
-.Content img {
-  height: 30vh;
-  margin: 0 auto;
+.BannerImage img {
   width: 100%;
+  height: 550px;
+  border-bottom: 5px solid black;
+}
+
+.FlexContent {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+  justify-self: space-evenly;
 }
 
 .Content-Info {
@@ -41,29 +48,36 @@
   width: 100%;
 }
 
+.Content-Info h1 {
+  font-size: 1em;
+}
+
 .Content-Info h5 {
   color: darkgrey;
   margin-top: -15px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 0.5em;
 }
 
 .Description {
   margin-top: 10px;
 }
 .Description p {
-  font-size: 14px;
   color: black !important;
   text-align: left;
+  font-size: 0.6em !important;
 }
 
 .Actions {
-  margin-top: -50px;
+  margin-top: -40px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
+.Actions button {
+  /* margin-top: 10px; */
+}
 .Actions a {
   color: inherit;
   text-decoration: none;
@@ -76,22 +90,32 @@
   cursor: pointer;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   .Content {
     top: 30%;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 990px) {
   .Content {
-    width: 500px;
-    height: 550px;
+    width: 600px;
+  }
+  .BannerImage img {
+    height: 350px;
   }
 }
+/* @media (max-width: 1200px) {
+  .Content {
+    top: 30%;
+    width: 700px;
+    height: 500px;
+  }
+}
+
 
 @media (max-width: 600px) {
   .Content {
     width: 350px;
     height: 500px;
   }
-}
+} */
