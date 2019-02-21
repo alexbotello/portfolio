@@ -28,6 +28,7 @@ export const projectInfo = {
   minimizer: {
     url: "https://github.com/alexbotello/minimizer",
     title: "Minimizer",
+    image: "/images/zig.png",
     tech: "Python",
     subtitle: "CLI Tool",
     desc:
@@ -36,6 +37,7 @@ export const projectInfo = {
   listenWithReddit: {
     url: "https://github.com/alexbotello/listen-with-reddit",
     title: "Listen With Reddit",
+    image: "/images/red.png",
     tech: "Python",
     subtitle: "AWS Lambda",
     desc:
