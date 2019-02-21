@@ -1,49 +1,16 @@
 .Container {
   display: grid;
-  grid-template-columns: minmax(150px, 1fr) 2fr minmax(150px, 1fr);
+  grid-template-columns: 1fr;
   grid-template-areas:
-    "image . social"
-    ". text ."
-    ". . .";
+    "social"
+    "text"
+    "text";
   grid-template-rows: 1fr 1fr 1fr;
   text-align: center;
-  background: url("/images/bg.jpg") no-repeat center center fixed;
+  background: #051d3b;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
-}
-
-@media (max-width: 1200px) {
-  .Container {
-    grid-template-areas:
-      "image . social"
-      "text text text"
-      ".     .     . ";
-  }
-}
-
-@media (max-width: 933px) {
-  .Container {
-    grid-template-areas:
-      ". social ."
-      "text text text"
-      " . . .";
-  }
-  /* Turn off profile image */
-  .Container .Image {
-    display: none;
-  }
-}
-
-@media (max-width: 500px) {
-  .Container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-      "social"
-      "text"
-      "  . ";
-  }
 }
