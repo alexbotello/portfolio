@@ -8,6 +8,7 @@
   font-size: 36px;
   color: white;
   font-family: "Roboto Slab", serif;
+  visibility: hidden;
 }
 
 .Text span {
@@ -26,6 +27,7 @@
   font-size: 20px;
   cursor: pointer;
   margin-top: 70px;
+  visibility: hidden;
 }
 
 .Text button:hover {

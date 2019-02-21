@@ -4,12 +4,15 @@ import "./index.css";
 function TextBody() {
   return (
     <div className="Text">
-      <p>
+      <p className="slideDown">
         Hello! I'm <span>Alexander Botello</span>
         <br />
         I'm a full-stack developer living in Austin.
       </p>
-      <button onClick={() => scrollToProjects()}> See my work</button>
+      <button className="slideLeft" onClick={() => scrollToProjects()}>
+        {" "}
+        See my work
+      </button>
     </div>
   );
 }
