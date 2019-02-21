@@ -1,5 +1,7 @@
 .Social {
   grid-area: social;
+  justify-content: center;
+  z-index: 1;
 }
 
 .Social ul {
@@ -46,5 +48,13 @@
   80% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
+  }
+}
+
+/* @media (max-width: 933px) { */
+
+@media (max-width: 500px) {
+  .Social {
+    place-self: center;
   }
 }

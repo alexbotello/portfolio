@@ -20,7 +20,7 @@ export const projectInfo = {
     url: "https://bkwds.co",
     title: "bkwds.",
     tech: "Node + React.js",
-    image: "/images/bkwds.jpg",
+    image: "/images/bkwds2.png",
     subtitle: "Hiking Companion App",
     desc:
       "Bkwds is a companion app for hikers, bikers, and climbers. Plan your routes, share them, and allow other to track your progress. Wander into the unknown with a peace of mind. "
@@ -28,6 +28,7 @@ export const projectInfo = {
   minimizer: {
     url: "https://github.com/alexbotello/minimizer",
     title: "Minimizer",
+    image: "/images/zig.png",
     tech: "Python",
     subtitle: "CLI Tool",
     desc:
@@ -36,6 +37,7 @@ export const projectInfo = {
   listenWithReddit: {
     url: "https://github.com/alexbotello/listen-with-reddit",
     title: "Listen With Reddit",
+    image: "/images/red.png",
     tech: "Python",
     subtitle: "AWS Lambda",
     desc:
