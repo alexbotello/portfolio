@@ -32,5 +32,13 @@ export const projectInfo = {
     subtitle: "CLI Tool",
     desc:
       "A command line tool that shrinks images to a specified size. Shrink an individual image or every image in a directory."
+  },
+  listenWithReddit: {
+    url: "https://github.com/alexbotello/listen-with-reddit",
+    title: "Listen With Reddit",
+    tech: "Python",
+    subtitle: "AWS Lambda",
+    desc:
+      "A daily regenerating Spotify playlist comprised of the top submissions from Reddit"
   }
 };
