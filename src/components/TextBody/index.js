@@ -7,7 +7,7 @@ function TextBody() {
       <p className="Name slideDown">
         Hello,
         <br />
-        I'm <span>alexander botello</span>
+        I'm <span>Alexander Botello</span>
         <br />
       </p>
       <p className="Profile slideUp">
