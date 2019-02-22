@@ -12,7 +12,7 @@ function TextBody() {
       </p>
       <p className="Profile slideUp">
         Full-stack developer in Austin with a passion for building software
-        experiences that positively impacts lives.
+        experiences that enrich lives.
       </p>
       <button
         className="slideLeft"

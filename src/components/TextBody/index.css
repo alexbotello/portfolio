@@ -25,10 +25,8 @@
 }
 
 .Text span {
-  color: #fd3a5c;
-  font-family: "Cantata One", serif;
-  font-weight: bold;
-  text-shadow: 2px 2px #a392ce;
+  /* font-family: "Cantata One", serif; */
+  /* text-shadow: 2px 2px #fd3a5c; */
 }
 
 .Text button {
