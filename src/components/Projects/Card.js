@@ -4,15 +4,16 @@ import { useHover } from "../../hooks";
 import Modal from "./Modal";
 
 function Card(props) {
-  const backgroundSettings = {
+  let backgroundSettings = {
     backgroundImage: `url(${props.image})`,
     backgroundSize: "cover"
   };
   const [hoverRef, isHovered] = useHover();
   const [modalIsOpen, toggleModal] = useState(false);
   const modalProps = { ...props, toggle: toggleModal };
+
   return (
-    <div className="Card" ref={hoverRef} style={backgroundSettings}>
+    <div className="Card" id="card" ref={hoverRef} style={backgroundSettings}>
       {isHovered ? (
         <div className="CardDetails">
           <div className="slide-top">

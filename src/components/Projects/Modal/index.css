@@ -36,6 +36,7 @@
   flex-direction: column;
   align-items: space-evenly;
   justify-self: space-evenly;
+  height: 250px;
 }
 
 .Content-Info {
@@ -60,7 +61,7 @@
 }
 
 .Description {
-  margin-top: 10px;
+  margin-top: -20px;
 }
 .Description p {
   color: black !important;
@@ -92,30 +93,25 @@
 
 @media (max-width: 1500px) {
   .Content {
-    top: 30%;
-  }
-}
-
-@media (max-width: 990px) {
-  .Content {
+    top: 20%;
     width: 600px;
   }
   .BannerImage img {
     height: 350px;
   }
+  .FlexContent {
+    height: 220px;
+  }
 }
-/* @media (max-width: 1200px) {
+
+@media (max-width: 1200px) {
   .Content {
     top: 30%;
-    width: 700px;
-    height: 500px;
   }
 }
 
-
-@media (max-width: 600px) {
+@media (max-width: 705px) {
   .Content {
-    width: 350px;
-    height: 500px;
+    top: 40%;
   }
-} */
+}
