@@ -3,7 +3,7 @@ import "./index.css";
 
 function Modal(props) {
   return (
-    <div className="Modal" onClick={() => props.toggle(!props.isOpen)}>
+    <div className="Modal">
       <div className="Content">
         <div className="BannerImage">
           <img src={props.image} alt="modal-img" />
