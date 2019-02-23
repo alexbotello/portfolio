@@ -3,7 +3,7 @@ import "./index.css";
 
 function Modal(props) {
   return (
-    <div className="Modal">
+    <div className="Modal" onClick={() => props.toggle(!props.isOpen)}>
       <div className="Content">
         <div className="BannerImage">
           <img src={props.image} alt="modal-img" />
@@ -22,7 +22,7 @@ function Modal(props) {
             <button>
               <a href={props.url}>View</a>
             </button>
-            <div className="close" onClick={() => props.toggle(false)}>
+            <div className="close" onClick={() => props.toggle(!props.isOpen)}>
               x
             </div>
           </div>

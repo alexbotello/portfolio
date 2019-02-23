@@ -10,10 +10,10 @@ function Card(props) {
   };
   const [hoverRef, isHovered] = useHover();
   const [modalIsOpen, toggleModal] = useState(false);
-  const modalProps = { ...props, toggle: toggleModal };
+  const modalProps = { ...props, toggle: toggleModal, isOpen: modalIsOpen };
 
   return (
-    <div className="Card" id="card" ref={hoverRef} style={backgroundSettings}>
+    <div className="Card" ref={hoverRef} style={backgroundSettings}>
       {isHovered ? (
         <div className="CardDetails">
           <div className="slide-top">
