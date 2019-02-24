@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import MainPage from "./components/Main";
 import Projects from "./components/Projects";
+import ContactMe from "./components/ContactMe";
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -12,7 +13,9 @@ function App() {
     <div>
       {isLoading ? null : (
         <div>
-          <MainPage /> <Projects />
+          <MainPage />
+          <Projects />
+          <ContactMe />
         </div>
       )}
     </div>

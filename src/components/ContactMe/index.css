@@ -1,0 +1,72 @@
+.Contact {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas:
+    ". cta ."
+    ". form . "
+    ". form . ";
+  grid-template-rows: 1fr 2fr 1fr;
+  height: 100vh;
+  /* width: 100vw; */
+  background-color: darkslateblue;
+  /* justify-content: center;
+  align-items: center; */
+  font-family: "Roboto Slab", serif;
+  color: rgb(119, 119, 119);
+}
+
+.CTA {
+  grid-area: cta;
+}
+
+.Form {
+  grid-area: form;
+}
+
+.UserInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Message {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  background: transparent;
+  border: 2px solid #888;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 44px;
+  width: 49%;
+  font-size: 16px;
+  text-align: start;
+  margin-top: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+textarea {
+  width: 100%;
+  background: transparent;
+  border: 2px solid #888;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: start;
+  height: 209px;
+  margin-top: 20px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+.Message input {
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+.Message textarea {
+  width: 100%;
+}
