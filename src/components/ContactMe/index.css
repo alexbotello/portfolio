@@ -45,6 +45,7 @@ input[type="text"] {
   margin-top: 20px;
   padding-left: 16px;
   padding-right: 16px;
+  font-family: "Roboto Slab", serif;
 }
 
 textarea {
@@ -68,5 +69,6 @@ textarea {
 }
 
 .Message textarea {
+  font-family: "Roboto Slab", serif;
   width: 100%;
 }
