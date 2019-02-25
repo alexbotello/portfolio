@@ -1,6 +1,4 @@
 import React from "react";
-// import React, { useState, useEffect } from "react";
-import Input from "./Input";
 import "./index.css";
 
 function ContactMe() {
@@ -11,16 +9,9 @@ function ContactMe() {
         <p>
           Want to hire me? Go ahead and send me a message, I'd love to chat.
         </p>
-      </div>
-      <div className="Form">
-        <div className="UserInfo">
-          <Input label="Name" name="name" />
-          <Input label="Email" name="email" />
-        </div>
-        <div className="Message">
-          <Input label="Subject" name="subject" />
-          <textarea placeholder="Message" />
-        </div>
+        <button className="">
+          <a href="mailto:alexander.j.botello@gmail.com">Message Me</a>
+        </button>
       </div>
     </div>
   );
