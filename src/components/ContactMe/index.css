@@ -4,18 +4,22 @@
   grid-template-areas:
     ". cta ."
     ". cta . "
-    ". form . ";
-  grid-template-rows: 1fr 2fr 1fr;
-  height: 100vh;
-  background-color: darkslateblue;
+    ". tm . ";
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 70vh;
+  background-color: #051d3b;
   font-family: "Roboto Slab", serif;
-  color: rgb(119, 119, 119);
+  color: white;
 }
 
 .CTA {
   grid-area: cta;
   place-self: center;
   text-align: center;
+}
+
+.CTA p {
+  font-size: 0.7em;
 }
 
 .CTA button {
@@ -32,7 +36,20 @@
   /* visibility: hidden; */
 }
 
+.CTA button:hover {
+  transition: all 1s ease;
+  transform: scale(1.1) perspective(1px);
+}
+
 .CTA a {
   text-decoration: none;
   color: inherit;
+}
+
+.TM {
+  grid-area: tm;
+  text-align: center;
+  align-self: flex-end;
+  font-size: 0.6em;
+  margin-bottom: 20px;
 }

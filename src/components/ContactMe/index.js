@@ -5,7 +5,7 @@ function ContactMe() {
   return (
     <div className="Contact">
       <div className="CTA">
-        <h1>Contact Me</h1>
+        <h2>Contact Me</h2>
         <p>
           Want to hire me? Go ahead and send me a message, I'd love to chat.
         </p>
@@ -15,6 +15,7 @@ function ContactMe() {
           </a>
         </button>
       </div>
+      <div className="TM">© 2019 Alex Botello. All rights reserved</div>
     </div>
   );
 }
