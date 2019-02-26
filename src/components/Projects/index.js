@@ -4,18 +4,15 @@ import { projectInfo } from "../../state";
 import { isComponentInView } from "../../hooks";
 import "./index.css";
 
-// const useForceUpdate = () => useState()[1];
-
 function Projects() {
   const [projects] = useState(projectInfo);
-  // const forceUpdate = useForceUpdate();
 
   useEffect(() => {
     window.addEventListener("scroll", addAnimationClasses);
     return () => {
       window.removeEventListener("scroll", addAnimationClasses);
     };
-  }, []);
+  });
   return (
     <div className="Projects" id="projects">
       <div className="Title">
@@ -34,7 +31,7 @@ function addAnimationClasses() {
   let title = document.getElementById("title");
   let underline = document.getElementById("underline");
   let cards = document.getElementById("cards");
-  if (isComponentInView("projects")) {
+  if (isComponentInView("title")) {
     title.classList.add("slideRight");
     underline.classList.add("slideLeft");
     cards.classList.add("slideUp");

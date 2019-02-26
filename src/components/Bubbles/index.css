@@ -31,6 +31,7 @@
   width: 40px;
   height: 40px;
   left: 20%;
+  border-radius: 50px;
 }
 .bubbles li:nth-child(2) {
   width: 60px;
@@ -40,6 +41,7 @@
   animation-delay: 2s;
   -webkit-animation-duration: 17s;
   animation-duration: 17s;
+  border-radius: 50px;
 }
 
 .bubbles li:nth-child(3) {
@@ -50,6 +52,7 @@
   animation-delay: 4s;
   -webkit-animation-duration: 13s;
   animation-duration: 13s;
+  border-radius: 50px;
 }
 
 .bubbles li:nth-child(4) {
@@ -60,6 +63,7 @@
   animation-delay: 1s;
   -webkit-animation-duration: 22s;
   animation-duration: 22s;
+  border-radius: 50px;
 }
 
 .bubbles li:nth-child(5) {
@@ -70,6 +74,7 @@
   animation-delay: 7s;
   -webkit-animation-duration: 12s;
   animation-duration: 12s;
+  border-radius: 50px;
 }
 
 .bubbles li:nth-child(6) {
@@ -80,6 +85,17 @@
   animation-delay: 6s;
   -webkit-animation-duration: 11s;
   animation-duration: 11s;
+  border-radius: 50px;
+}
+.bubbles li:nth-child(7) {
+  width: 60px;
+  height: 60px;
+  left: 70%;
+  -webkit-animation-delay: 6s;
+  animation-delay: 6s;
+  -webkit-animation-duration: 11s;
+  animation-duration: 11s;
+  border-radius: 50px;
 }
 
 @-webkit-keyframes square {

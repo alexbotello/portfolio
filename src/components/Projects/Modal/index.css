@@ -66,7 +66,7 @@
 .Description p {
   color: black !important;
   text-align: left;
-  font-size: 0.6em !important;
+  font-size: 0.5em !important;
 }
 
 .Actions {
@@ -77,7 +77,7 @@
 }
 
 .Actions button {
-  /* margin-top: 10px; */
+  margin-top: 5px;
 }
 .Actions a {
   color: inherit;

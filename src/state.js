@@ -38,7 +38,7 @@ export const projectInfo = {
     url: "https://github.com/alexbotello/listen-with-reddit",
     title: "Listen With Reddit",
     image: "/images/red.png",
-    tech: "Python",
+    tech: "Python + AWS Lambda",
     subtitle: "AWS Lambda",
     desc:
       "A daily regenerating Spotify playlist comprised of the top submissions from Reddit"
