@@ -4,11 +4,8 @@ import { projectInfo } from "../../state";
 import { isComponentInView } from "../../hooks";
 import "./index.css";
 
-// const useForceUpdate = () => useState()[1];
-
 function Projects() {
   const [projects] = useState(projectInfo);
-  // const forceUpdate = useForceUpdate();
 
   useEffect(() => {
     window.addEventListener("scroll", addAnimationClasses);

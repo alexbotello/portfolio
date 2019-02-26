@@ -10,7 +10,9 @@ function ContactMe() {
           Want to hire me? Go ahead and send me a message, I'd love to chat.
         </p>
         <button className="">
-          <a href="mailto:alexander.j.botello@gmail.com">Message Me</a>
+          <a href="mailto:alexander.j.botello@gmail.com">
+            <i className="far fa-envelope" /> Message Me
+          </a>
         </button>
       </div>
     </div>
