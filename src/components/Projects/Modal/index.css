@@ -34,9 +34,6 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  align-items: space-evenly;
-  justify-self: space-evenly;
-  height: 250px;
 }
 
 .Content-Info {
@@ -70,7 +67,7 @@
 }
 
 .Actions {
-  margin-top: -40px;
+  /* margin-top: -40px; */
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -102,6 +99,9 @@
   .FlexContent {
     height: 220px;
   }
+  .Description p {
+    font-size: 0.6em !important;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -113,5 +113,8 @@
 @media (max-width: 705px) {
   .Content {
     top: 40%;
+  }
+  .Description p {
+    font-size: 0.7em !important;
   }
 }
